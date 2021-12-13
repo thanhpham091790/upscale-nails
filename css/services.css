@@ -1,0 +1,76 @@
+/* Style services section */
+
+.section-services .section-heading {
+    text-align: center;
+}
+
+.section-services .section-heading h5 {
+    color: #343a40 !important;
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.section-services .section-heading h5::after {
+    content: "";
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #ffd7cb;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -1rem;
+}
+
+.section-services .section-heading p {
+    color: #6c757d !important;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.section-services .section-content h5 {
+    color: #343a40 !important;
+    font-size: 3rem;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-services .section-content h5::after {
+    content: "";
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #ffd7cb;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -1rem;
+}
+
+.section-services .section-content p {
+    color: #6c757d !important;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.section-services .section-content .product {
+    border-bottom: 0.1rem solid #ffd7cb;
+}
+
+.section-services .section-content .name-price {
+    color: #343a40;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.section-services .section-content .price {
+    float: right;
+}
+
+.section-services .section-content .description {
+    color: #6c757d;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

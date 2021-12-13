@@ -1,0 +1,90 @@
+/* Style contact section */
+
+.section-contact .section-heading {
+    text-align: center;
+}
+
+.section-contact .section-heading h5 {
+    color: #343a40 !important;
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.section-contact .section-heading h5::after {
+    content: "";
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #ffd7cb;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -1rem;
+}
+
+.section-contact .section-heading p {
+    color: #6c757d !important;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.section-contact .contact-us h5 {
+    color: #343a40 !important;
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.section-contact .contact-us h5::after {
+    content: "";
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #ffd7cb;
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+}
+
+.section-contact .contact-us a {
+    color: #6c757d !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.section-contact .contact-form input[type=text],
+.section-contact .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #6c757d;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    resize: vertical;
+    font-size: 1.5rem;
+}
+
+.section-contact .contact-form input[type=submit] {
+    background-color: #ffd7cb;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.section-contact .contact-form input[type=submit]:hover {
+    background-color: #ffd7cb;
+}
+
+.section-contact .fa {
+    font-size: 1.75rem;
+    color: #ffd7cb;
+}

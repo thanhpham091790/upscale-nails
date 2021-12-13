@@ -1,0 +1,11 @@
+/* Style footer section */
+
+.section-footer .copyright {
+    color: #6c757d !important;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.section-footer .copyright a {
+    color: #ffd7cb;
+}

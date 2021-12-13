@@ -1,0 +1,36 @@
+/* Style gifts section */
+
+.section-gifts .section-heading {
+    text-align: center;
+}
+
+.section-gifts .section-heading h5 {
+    color: #343a40 !important;
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.section-gifts .section-heading h5::after {
+    content: "";
+    width: 10rem;
+    height: 0.5rem;
+    background-color: #ffd7cb;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -1rem;
+}
+
+.section-gifts .section-heading p {
+    color: #6c757d !important;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.section-gifts .gift-certificate p {
+    color: #6c757d !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
