@@ -1,18 +1,18 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Alegreya Sans", "Segoe UI", Arial, Helvetica, sans-serif;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
 
-/* Style go to top */
-.section-fixed-content .icon-bar {
 
+/* Style go to top */
+
+.section-fixed-content .icon-bar {
     position: fixed;
     top: 50%;
     right: 0;
@@ -20,10 +20,9 @@ html{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 4;
-
 }
-.section-fixed-content a {
 
+.section-fixed-content a {
     display: block;
     text-align: center;
     padding: 1rem;
@@ -33,7 +32,6 @@ html{
     background: #ffd7cb;
     color: white;
     text-decoration: none;
-
 }
 
 #myBtn {
@@ -42,27 +40,36 @@ html{
     bottom: 2rem;
     right: 0;
     z-index: 4;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     opacity: 1;
-  }
+}
+
+
 /* Style navbar section */
-.section-navbar{
+
+.section-navbar {
     font-size: 1.75rem;
     text-transform: capitalize;
 }
+
 .section-navbar .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,.0);
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, .0);
 }
+
 .section-navbar .navbar-toggler {
     font-size: 2.25rem;
 }
+
 .section-navbar .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='square' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+
 /* Style home section */
+
 .section-home picture img {
     width: 100%;
     height: auto;
@@ -75,7 +82,8 @@ html{
     position: relative;
     margin-bottom: 1rem;
 }
-.section-home .carousel-caption h5::after{
+
+.section-home .carousel-caption h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
@@ -83,11 +91,13 @@ html{
     display: block;
     margin: 0.5rem auto;
 }
-.section-home .carousel-caption p{
+
+.section-home .carousel-caption p {
     color: #6c757d !important;
     font-size: 1.5rem;
     font-weight: 300;
 }
+
 .section-home .carousel-caption .btn-carousel {
     background-color: #ffd7cb;
     border: none;
@@ -105,7 +115,6 @@ html{
 }
 
 .section-home .carousel-indicators li {
-
     box-sizing: content-box;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
@@ -121,12 +130,16 @@ html{
     opacity: 0.5;
     transition: opacity .6s ease;
 }
-.section-home .carousel-indicators li.active, .section-home .carousel-indicators li:hover {
+
+.section-home .carousel-indicators li.active,
+.section-home .carousel-indicators li:hover {
     background-color: #ffd7cb;
     border: 0.2rem solid #ffd7cb;
 }
 
+
 /* Style about us section */
+
 .section-about .about-us h5 {
     color: #343a40 !important;
     font-size: 3rem;
@@ -134,7 +147,8 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-about .about-us h5::after{
+
+.section-about .about-us h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
@@ -143,13 +157,16 @@ html{
     left: 0;
     bottom: -1rem;
 }
-.section-about .about-us p{
+
+.section-about .about-us p {
     color: #6c757d !important;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
+
 /* Style hours section */
+
 .section-hours .hours h5 {
     color: #343a40 !important;
     font-size: 3rem;
@@ -157,7 +174,8 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-hours .hours h5::after{
+
+.section-hours .hours h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
@@ -166,15 +184,20 @@ html{
     left: 0;
     bottom: -1rem;
 }
-.section-hours .hours p{
+
+.section-hours .hours p {
     color: #6c757d !important;
     font-size: 1.5rem;
     font-weight: 300;
 }
+
+
 /* Style services section */
-.section-services .section-heading{
+
+.section-services .section-heading {
     text-align: center;
 }
+
 .section-services .section-heading h5 {
     color: #343a40 !important;
     font-size: 3rem;
@@ -182,17 +205,19 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-services .section-heading h5::after{
+
+.section-services .section-heading h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
     background-color: #ffd7cb;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     bottom: -1rem;
 }
-.section-services .section-heading p{
+
+.section-services .section-heading p {
     color: #6c757d !important;
     font-size: 1.75rem;
     font-weight: 300;
@@ -206,41 +231,51 @@ html{
     margin-bottom: 2rem;
     text-align: center;
 }
-.section-services .section-content h5::after{
+
+.section-services .section-content h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
     background-color: #ffd7cb;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     bottom: -1rem;
 }
-.section-services .section-content p{
+
+.section-services .section-content p {
     color: #6c757d !important;
     font-size: 1.75rem;
     font-weight: 300;
 }
-.section-services .section-content .product{
+
+.section-services .section-content .product {
     border-bottom: 0.1rem solid #ffd7cb;
 }
-.section-services .section-content .name-price{
+
+.section-services .section-content .name-price {
     color: #343a40;
     font-size: 1.5rem;
     font-weight: 400;
 }
-.section-services .section-content .price{
+
+.section-services .section-content .price {
     float: right;
 }
-.section-services .section-content .description{
+
+.section-services .section-content .description {
     color: #6c757d;
     font-size: 1.5rem;
     font-weight: 300;
 }
+
+
 /* Style gifts section */
-.section-gifts .section-heading{
+
+.section-gifts .section-heading {
     text-align: center;
 }
+
 .section-gifts .section-heading h5 {
     color: #343a40 !important;
     font-size: 3rem;
@@ -248,31 +283,37 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-gifts .section-heading h5::after{
+
+.section-gifts .section-heading h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
     background-color: #ffd7cb;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     bottom: -1rem;
 }
-.section-gifts .section-heading p{
+
+.section-gifts .section-heading p {
     color: #6c757d !important;
     font-size: 1.75rem;
     font-weight: 300;
 }
-.section-gifts .gift-certificate p{
+
+.section-gifts .gift-certificate p {
     color: #6c757d !important;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
+
 /* Style contact section */
-.section-contact .section-heading{
+
+.section-contact .section-heading {
     text-align: center;
 }
+
 .section-contact .section-heading h5 {
     color: #343a40 !important;
     font-size: 3rem;
@@ -280,26 +321,37 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-contact .section-heading h5::after{
+
+.section-contact .section-heading h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
     background-color: #ffd7cb;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     bottom: -1rem;
 }
-.section-contact .section-heading p{
+
+.section-contact .section-heading p {
     color: #6c757d !important;
     font-size: 1.75rem;
     font-weight: 300;
 }
 
-#map {
+.section-contact .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.section-contact .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
     width: 100%;
-    height: 400px;
-    background-color: grey;
+    position: absolute;
 }
 
 .section-contact .contact-us h5 {
@@ -309,7 +361,8 @@ html{
     position: relative;
     margin-bottom: 2rem;
 }
-.section-contact .contact-us h5::after{
+
+.section-contact .contact-us h5::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
@@ -318,14 +371,16 @@ html{
     left: 0;
     bottom: -1rem;
 }
-.section-contact .contact-us a{
+
+.section-contact .contact-us a {
     color: #6c757d !important;
     font-size: 1.5rem;
     font-weight: 300;
     text-decoration: none;
 }
 
-.section-contact .contact-form input[type=text], .section-contact .contact-form textarea {
+.section-contact .contact-form input[type=text],
+.section-contact .contact-form textarea {
     width: 100%;
     padding: 1rem;
     border: 0.1rem solid #6c757d;
@@ -333,34 +388,36 @@ html{
     margin: 1rem 0;
     resize: vertical;
     font-size: 1.5rem;
-  }
-  
-  .section-contact .contact-form input[type=submit] {
+}
+
+.section-contact .contact-form input[type=submit] {
     background-color: #ffd7cb;
     color: white;
     padding: 1rem 1.5rem;
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-  }
-  
-  .section-contact .contact-form input[type=submit]:hover {
-    background-color: #ffd7cb;
-  }
+}
 
-.section-contact .fa{
+.section-contact .contact-form input[type=submit]:hover {
+    background-color: #ffd7cb;
+}
+
+.section-contact .fa {
     font-size: 1.75rem;
     color: #ffd7cb;
 }
-  
+
+
 /* Style footer section */
 
-.section-footer .copyright{
+.section-footer .copyright {
     color: #6c757d !important;
     font-size: 1.75rem;
     font-weight: 300;
 }
-.section-footer .copyright a{
+
+.section-footer .copyright a {
     color: #ffd7cb;
 }
 
@@ -378,14 +435,15 @@ html{
     /* Style contact section */
     /* Style footer section */
 }
-@media screen and (min-width: 576px){
+
+@media screen and (min-width: 576px) {
     /* Style navbar section */
     /* Style home section */
     .section-home .carousel-caption {
         right: 55%;
         left: 5%;
         top: 35%;
-        transform: translate(0,-50%);
+        transform: translate(0, -50%);
     }
     /* Style about us section */
     /* Style hours section */
@@ -394,7 +452,8 @@ html{
     /* Style contact section */
     /* Style footer section */
 }
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
     /* Style navbar section */
     /* Style home section */
     /* Style about us section */
@@ -405,14 +464,14 @@ html{
     /* Style footer section */
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     /* Style navbar section */
     /* Style home section */
     .section-home .carousel-caption {
         right: 55%;
         left: 5%;
         top: 50%;
-        transform: translate(0,-50%);
+        transform: translate(0, -50%);
     }
     /* Style about us section */
     /* Style hours section */
@@ -421,6 +480,7 @@ html{
     /* Style contact section */
     /* Style footer section */
 }
+
 @media screen and (min-width: 1200px) {
     /* Style navbar section */
     /* Style home section */
