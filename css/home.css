@@ -5,33 +5,34 @@
     height: auto;
 }
 
-.section-home .carousel-caption h5 {
-    color: #343a40 !important;
-    font-size: 3rem;
-    font-weight: 600;
+.section-home .carousel-caption h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
+    font-size: 5rem;
+    font-weight: 400;
     position: relative;
     margin-bottom: 1rem;
 }
 
-.section-home .carousel-caption h5::after {
+.section-home .carousel-caption h1::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     display: block;
     margin: 0.5rem auto;
 }
 
 .section-home .carousel-caption p {
-    color: #6c757d !important;
-    font-size: 1.5rem;
+    color: #000000 !important;
+    font-size: 2rem;
     font-weight: 300;
 }
 
 .section-home .carousel-caption .btn-carousel {
-    background-color: #ffd7cb;
+    background-color: #E83458;
     border: none;
-    color: #343a40;
+    color: #ffffff;
     padding: 1.2rem;
     font-size: 1.5rem;
     display: inline-block;
@@ -63,6 +64,6 @@
 
 .section-home .carousel-indicators li.active,
 .section-home .carousel-indicators li:hover {
-    background-color: #ffd7cb;
-    border: 0.2rem solid #ffd7cb;
+    background-color: #E83458;
+    border: 0.2rem solid #E83458;
 }

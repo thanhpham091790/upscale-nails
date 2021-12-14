@@ -4,23 +4,39 @@
     text-align: center;
 }
 
-.section-contact .section-heading h5 {
-    color: #343a40 !important;
-    font-size: 3rem;
-    font-weight: 600;
+.section-contact .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.section-contact .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.section-contact .section-heading h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
+    font-size: 4rem;
+    font-weight: 400;
     position: relative;
     margin-bottom: 2rem;
 }
 
-.section-contact .section-heading h5::after {
+.section-contact .section-heading h2::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     position: absolute;
+    bottom: -1rem;
     left: 50%;
     transform: translate(-50%, 0);
-    bottom: -1rem;
 }
 
 .section-contact .section-heading p {
@@ -35,22 +51,23 @@
     background-color: grey;
 }
 
-.section-contact .contact-us h5 {
-    color: #343a40 !important;
+.section-contact .contact-us h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
     position: relative;
     margin-bottom: 2rem;
 }
 
-.section-contact .contact-us h5::after {
+.section-contact .contact-us h3::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     position: absolute;
-    left: 0;
     bottom: -1rem;
+    left: 0;
 }
 
 .section-contact .contact-us a {
@@ -72,7 +89,7 @@
 }
 
 .section-contact .contact-form input[type=submit] {
-    background-color: #ffd7cb;
+    background-color: #E83458;
     color: white;
     padding: 1rem 1.5rem;
     border: none;
@@ -81,10 +98,10 @@
 }
 
 .section-contact .contact-form input[type=submit]:hover {
-    background-color: #ffd7cb;
+    background-color: #E83458;
 }
 
 .section-contact .fa {
     font-size: 1.75rem;
-    color: #ffd7cb;
+    color: #E83458;
 }

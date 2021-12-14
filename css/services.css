@@ -4,23 +4,24 @@
     text-align: center;
 }
 
-.section-services .section-heading h5 {
-    color: #343a40 !important;
-    font-size: 3rem;
-    font-weight: 600;
+.section-services .section-heading h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
+    font-size: 4rem;
+    font-weight: 400;
     position: relative;
     margin-bottom: 2rem;
 }
 
-.section-services .section-heading h5::after {
+.section-services .section-heading h2::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     position: absolute;
+    bottom: -1rem;
     left: 50%;
     transform: translate(-50%, 0);
-    bottom: -1rem;
 }
 
 .section-services .section-heading p {
@@ -29,8 +30,9 @@
     font-weight: 300;
 }
 
-.section-services .section-content h5 {
-    color: #343a40 !important;
+.section-services .section-content h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
     font-size: 3rem;
     font-weight: 400;
     position: relative;
@@ -38,15 +40,15 @@
     text-align: center;
 }
 
-.section-services .section-content h5::after {
+.section-services .section-content h3::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     position: absolute;
+    bottom: -1rem;
     left: 50%;
     transform: translate(-50%, 0);
-    bottom: -1rem;
 }
 
 .section-services .section-content p {

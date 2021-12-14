@@ -1,18 +1,19 @@
 /* Style hours section */
 
-.section-hours .hours h5 {
-    color: #343a40 !important;
-    font-size: 3rem;
-    font-weight: 600;
+.section-hours .hours h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #E83458 !important;
+    font-size: 4rem;
+    font-weight: 400;
     position: relative;
     margin-bottom: 2rem;
 }
 
-.section-hours .hours h5::after {
+.section-hours .hours h2::after {
     content: "";
     width: 10rem;
     height: 0.5rem;
-    background-color: #ffd7cb;
+    background-color: #E83458;
     position: absolute;
     left: 0;
     bottom: -1rem;
