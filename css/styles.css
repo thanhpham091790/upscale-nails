@@ -215,6 +215,12 @@ html {
 #section-services .category, #section-services .product{
     margin: 1rem 0;
 }
+#section-services .heading-4{
+    text-transform: capitalize;
+}
+#section-services .body-3{
+    text-align: justify;
+}
 @media screen and (min-width: 992px) {
     #section-services .category{
         max-width: 60rem;
