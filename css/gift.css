@@ -1,37 +1,17 @@
-/* Style gifts section */
-
-.section-gifts .section-heading {
-    text-align: center;
+#section-gifts{
+    margin: 3rem 0;
 }
-
-.section-gifts .section-heading h2 {
-    font-family: 'Kaushan Script', cursive;
-    color: #E83458 !important;
-    font-size: 4rem;
-    font-weight: 400;
-    position: relative;
-    margin-bottom: 2rem;
+#section-gifts h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    color: #e83458 !important;
 }
-
-.section-gifts .section-heading h2::after {
-    content: "";
-    width: 10rem;
-    height: 0.5rem;
-    background-color: #E83458;
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.section-gifts .section-heading p {
-    color: #6c757d !important;
-    font-size: 1.75rem;
-    font-weight: 300;
-}
-
-.section-gifts .gift-certificate p {
-    color: #6c757d !important;
-    font-size: 1.5rem;
-    font-weight: 300;
+#section-gifts p {
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    color: #2a2a2e !important;
 }

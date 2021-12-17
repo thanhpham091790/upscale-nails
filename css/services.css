@@ -1,78 +1,41 @@
 /* Style services section */
 
-.section-services .section-heading {
-    text-align: center;
+#section-services {
+    margin: 3rem 0;
 }
-
-.section-services .section-heading h2 {
-    font-family: 'Kaushan Script', cursive;
-    color: #E83458 !important;
-    font-size: 4rem;
+#section-services .category, #section-services .product{
+    margin: 1rem 0;
+}
+#section-services h2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    color: #e83458 !important;
+}
+#section-services p {
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    color: #2a2a2e !important;
+}
+#section-services h3 {
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #e83458;
+}
+#section-services h4{
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+#section-services .desc{
+    font-family: Montserrat;
     font-weight: 400;
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.section-services .section-heading h2::after {
-    content: "";
-    width: 10rem;
-    height: 0.5rem;
-    background-color: #E83458;
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.section-services .section-heading p {
-    color: #6c757d !important;
-    font-size: 1.75rem;
-    font-weight: 300;
-}
-
-.section-services .section-content h3 {
-    font-family: 'Kaushan Script', cursive;
-    color: #E83458 !important;
-    font-size: 3rem;
-    font-weight: 400;
-    position: relative;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.section-services .section-content h3::after {
-    content: "";
-    width: 10rem;
-    height: 0.5rem;
-    background-color: #E83458;
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.section-services .section-content p {
-    color: #6c757d !important;
-    font-size: 1.75rem;
-    font-weight: 300;
-}
-
-.section-services .section-content .product {
-    border-bottom: 0.1rem solid #ffd7cb;
-}
-
-.section-services .section-content .name-price {
-    color: #343a40;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.section-services .section-content .price {
-    float: right;
-}
-
-.section-services .section-content .description {
-    color: #6c757d;
-    font-size: 1.5rem;
-    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 1.4rem;
 }
