@@ -39,3 +39,10 @@
     text-transform: capitalize;
     font-size: 1.4rem;
 }
+@media screen and (min-width: 992px) {
+    #section-services .category{
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+    
+}

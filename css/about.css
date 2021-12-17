@@ -15,22 +15,15 @@
     text-transform: capitalize;
     font-size: 1.6rem;
     color: #2a2a2e !important;
+    text-align: justify;
 }
 #section-about .about-us{
     display: flex;
     align-items: center;
 }
-#section-about .image{
-    order: 2;
-    margin-top: 3rem;
-    filter: drop-shadow(0.5rem 0.5rem 1rem #2a2a2e);
-}
-#section-about .text{
-    order: 1;
-    text-align: justify;
-}
-#section-about h2{
-    margin-bottom: 1rem;
+#section-about img{
+    display: block;
+    margin: 0 auto;
 }
 @media  screen and (min-width: 992px) {
     #section-about{
@@ -38,14 +31,12 @@
     }
     #section-about .image{
         order: 1;
-        margin-top: 0;
     }
     #section-about .text{
         order: 2;
-        align-content: center;
     }
     #section-about .para{
-        max-width: 70%;
+        max-width: 60rem;
         margin: auto;
     }
 }
